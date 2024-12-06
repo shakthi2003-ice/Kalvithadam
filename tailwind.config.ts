@@ -21,13 +21,20 @@ export default {
         yellowCard: "#F5D365",
         redCard: "#EF523C",
         purpleCard: "#ECC2F6",
+        orangeColor: "#FF6320",
       },
       fontFamily: {
         Poppins: ["Poppins"],
         Rochester: ["Rochester"],
         Roboto: ["Roboto"],
       },
+      clipPath: {
+        custom: "polygon(0 0, 100% 0, 100% 85%, 0 100%)", // Creates a smooth curve
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    require("tailwind-clip-path"), // Enable clip-path plugin
+  ],
 } satisfies Config;
