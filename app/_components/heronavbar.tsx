@@ -4,7 +4,8 @@ import React from "react";
 
 export default function HeroNavbar() {
   return (
-    <div className="relative h-20">
+    //!!Have to complete the responsiveness
+    <div className="relative h-[200px] md:h-[500px]">
       {/* Large screen image */}
       <div className="m-0 p-0 hidden lg:block">
         <Image

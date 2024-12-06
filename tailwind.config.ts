@@ -22,6 +22,7 @@ export default {
         redCard: "#EF523C",
         purpleCard: "#ECC2F6",
         orangeColor: "#FF6320",
+        redColor: "#E5CBCB",
       },
       fontFamily: {
         Poppins: ["Poppins"],
