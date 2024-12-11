@@ -1,11 +1,17 @@
 "use client";
 import React from "react";
 
-export default function ExamDetailCard() {
+interface ExamDetailCardProps {
+  Color: string;
+}
+export default function ExamDetailCard({ Color }: ExamDetailCardProps) {
   return (
     <div className="flex flex-col justify-center items-center p-2">
       <div className="pl-[15vw] w-screen">
-        <div className="bg-redColor w-[75vw] p-4 rounded-2xl">
+        <div
+          className="w-[75vw] p-4 rounded-2xl"
+          style={{ backgroundColor: Color }}
+        >
           <div className="text-xl font-Roboto font-bold">Eligibility</div>
           <div className="text-lg font-Roboto pl-5 pt-2">
             Candidates must have secured a minimum percentage in 10+2 or

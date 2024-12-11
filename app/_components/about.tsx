@@ -5,7 +5,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="mt-16 pb-4">
+    <div id="about" className="mt-16 pb-4">
       <div className="pl-6">
         <button className="flex items-center justify-center bg-mainBlue p-4 rounded-full transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
           <div className="text-md md:text-xl font-Poppins text-white font-semibold">

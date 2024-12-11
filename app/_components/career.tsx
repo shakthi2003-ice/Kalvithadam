@@ -5,7 +5,7 @@ import Cards from "./cards";
 
 export default function Career() {
   return (
-    <div className="bg-careerBg pb-5">
+    <div className="bg-careerBg pb-5" id="careerSection">
       <div className=" pt-16 pl-18px">
         <div>
           <div className="text-3xl font-Poppins font-bold text-black mb-0">

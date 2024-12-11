@@ -3,7 +3,10 @@ import React from "react";
 
 export default function ExamDetails() {
   return (
-    <div className="flex flex-col justify-center items-center p-5">
+    <div
+      id="eligibility"
+      className="flex flex-col justify-center items-center p-5"
+    >
       <div className="pl-[15vw] w-screen">
         <div className="text-xl font-Roboto">
           How to Start Your Career in Agriculture

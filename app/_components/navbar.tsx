@@ -1,5 +1,7 @@
 "use client";
 
+import { Link } from "react-scroll";
+
 export default function Navbar() {
   return (
     <nav className="bg-mainBlue text-white rounded-full flex flex-row items-center my-3 px-6 py-3 w-full max-w-xs sm:max-w-md md:max-w-xl mx-auto md:px-4 md:py-2">
@@ -8,9 +10,14 @@ export default function Navbar() {
         <a href="#home" className="hover:text-gray-300 text-xs md:text-sm">
           Home
         </a>
-        <a href="#about" className="hover:text-gray-300 text-xs md:text-sm">
+        <Link
+          to="about"
+          smooth={true}
+          delay={100}
+          className="hover:text-gray-300 text-xs md:text-sm cursor-pointer"
+        >
           About Us
-        </a>
+        </Link>
         <a href="#contact" className="hover:text-gray-300 text-xs md:text-sm">
           Contact Us
         </a>
