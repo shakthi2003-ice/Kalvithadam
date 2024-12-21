@@ -3,6 +3,14 @@
 import React from "react";
 import Cards from "./cards";
 
+type CareerOptions = {
+  id: number;
+  Profile: string;
+  ExamName: string;
+  img: string;
+  Color: string;
+};
+import data from "../data.json";
 export default function Career() {
   return (
     <div className="bg-careerBg pb-5" id="careerSection">
@@ -20,7 +28,16 @@ export default function Career() {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center md:flex-row md:justify-center gap-24">
-        <Cards
+        {data.map((item: CareerOptions) => (
+          <Cards
+            key={item.id}
+            Profile={item.Profile}
+            ExamName={item.ExamName}
+            img={item.img}
+            Color={item.Color}
+          />
+        ))}
+        {/* <Cards
           Profile="Engineering"
           ExamName="JEE"
           Color="#F5D365"
@@ -32,7 +49,7 @@ export default function Career() {
           Color="#EF523C"
           img="doctor.png"
         />
-        <Cards Profile="Law" ExamName="CLAT" Color="#FEAFE1" img="lawyer.png" />
+        <Cards Profile="Law" ExamName="CLAT" Color="#FEAFE1" img="lawyer.png" /> */}
       </div>
       <div className="mb-2 flex justify-center mt-8 ">
         <button className="flex items-center justify-center bg-mainBlue p-4 rounded-full transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
