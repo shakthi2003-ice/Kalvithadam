@@ -7,7 +7,7 @@ import Navbar from "./_components/navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-white m-0 p-0">
       <Navbar />
       <Main />
       <Career />

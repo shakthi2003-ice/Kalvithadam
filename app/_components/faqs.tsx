@@ -6,7 +6,7 @@ export default function Faqs() {
   // State to keep track of FAQ open/closed status
 
   return (
-    <div className="mt-4 pt-6 bg-purpleCard">
+    <div className="mt-4 pt-6 bg-white">
       <div className="flex flex-col justify-center items-center pb-6">
         <div className="text-5xl font-extrabold font-Roboto">FAQs</div>
         <Card
