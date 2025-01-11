@@ -1,58 +1,139 @@
 {
-    "domain": "Agriculture",
-    "tagline": "Explore the flourishing world of Agriculture",
-    "subtagline": "Cultivate growth. Empower futures. Navigate the agriculture domain with clarity and purpose.",
-    "introduction": "Agriculture has now emerged as one of the popular courses after grade 12. Agriculture has different courses ranging from UG courses like B.Tech, B.Sc, B.S to Diploma courses. A few of the popular courses are Horticulture, Agricultural Engineering, Forestry, Sericulture. Agricultural courses aim to provide training to implement modern agricultural techniques and technologies in the real world scenario.",
-    "topColleges": [
-      {
-        "name": "ICAR-National Dairy Research Institute (NDRI)",
-        "location": "Karnal, Haryana",
-        "website": "http://ndri.res.in/"
+  "domain": "Agriculture",
+  "tagline": "Explore the flourishing world of Agriculture",
+  "subtagline": "Cultivate growth. Empower futures. Navigate the agriculture domain with clarity and purpose.",
+  "introduction": "Agriculture has now emerged as one of the popular courses after grade 12. Agriculture has different courses ranging from UG courses like B.Tech, B.Sc, B.S to Diploma courses. A few of the popular courses are Horticulture, Agricultural Engineering, Forestry, Sericulture. Agricultural courses aim to provide training to implement modern agricultural techniques and technologies in the real world scenario.",
+  "entrance_exams": [
+    {
+      "exam_name": "CUET Agriculture exam",
+      "conducting_body": "NTA",
+      "overview": "ICAR AIEEA is the entrance exam for admission in undergraduate, postgraduate, and doctoral agriculture and allied sciences programs. The AIEEA UG is the entrance exam for admission into undergraduate courses, which is administered by NTA through agriculture CUET exam from 2023.",
+      "exam_details": {
+        "languages": ["English", "Hindi"],
+        "mode": "Online",
+        "number_of_questions": 50,
+        "questions_to_be_answered": 40,
+        "type_of_questions": "MCQ",
+        "total_marks": 200,
+        "marking_scheme": "Details not provided in the source"
       },
-      {
-        "name": "Punjab Agricultural University",
-        "location": "Ludhiana, Punjab",
-        "website": "https://www.pau.edu/"
+      "application_timeline": {
+        "application_start": "February",
+        "application_end": "March",
+        "exam_date": "May",
+        "result_announcement": "June"
       },
-      {
-        "name": "ICAR-Indian Agricultural Research Institute",
-        "location": "New Delhi",
-        "website": "https://iari.res.in/"
-      },
-      {
-        "name": "ICAR-Indian Veterinary Research Institute",
-        "location": "Izatnagar, Bareilly",
-        "website": "http://www.ivri.nic.in/"
-      },
-      {
-        "name": "GB Pant University of Agriculture & Technology",
-        "location": "Pantnagar, Uttarakhand",
-        "website": "https://www.gbpuat.ac.in/"
-      },
-      {
-        "name": "Chaudhary Charan Singh, Haryana Agriculture University",
-        "location": "Hisar, Haryana",
-        "website": "http://hau.ac.in/"
-      },
-      {
-        "name": "Guru Angad Dev Veterinary and Animal Sciences University",
-        "location": "Ludhiana, Punjab",
-        "website": "https://www.gadvasu.in/"
-      },
-      {
-        "name": "Tamil Nadu Agricultural University",
-        "location": "Coimbatore, Tamil Nadu",
-        "website": "https://tnau.ac.in/"
-      },
-      {
-        "name": "University of Agricultural Sciences, Dharwad",
-        "location": "Dharwad",
-        "website": "http://www.uasd.edu/"
-      },
-      {
-        "name": "Professor Jayashankar Telangana State Agricultural University",
-        "location": "Rajendra Nagar, Hyderabad",
-        "website": "https://www.pjtsau.edu.in/"
+      "contact_details": {
+        "website": [
+          "https://icar.org.in/",
+          "https://icar.org.in/file/18402/download?token=WmFC1_LY"
+        ],
+        "phone": ["011-69227700", "011-40759000"]
       }
-    ]
-  }
+    },
+    {
+      "exam_name": "TNAU Counselling",
+      "conducting_body": "Tamil Nadu Agricultural University (TNAU)",
+      "overview": "Tamil Nadu Agricultural University (TNAU) is located in Coimbatore, Tamil Nadu, India and was established in the year 1971. The university is recognised by UGC and functions in accordance with the Tamil Nadu Directorate of Education. The University is offering 13 Undergraduate Degree Programs, 29 Postgraduate Degree Programs and 26 Doctoral Programs in 14 Colleges distributed in 11 campuses all over Tamil Nadu.",
+      "admission_process": "Seats are allotted via the TNAU counselling conducted by the university and the admissions are merit-based.",
+      "courses_offered": [
+        "B. Sc. (Hons.) Agriculture",
+        "B. Sc. (Hons.) Horticulture",
+        "B. Sc. (Hons.) Forestry",
+        "B. Sc. (Hons.) Food, Nutrition and Dietetics",
+        "B. Tech. (Agricultural Engineering)",
+        "B. Sc. (Hons.) Sericulture",
+        "B. Tech. (Food Technology)",
+        "B. Tech. (Biotechnology)",
+        "B. Tech. (Energy and Environmental Engineering)",
+        "B. S. (Agribusiness Management)"
+      ],
+      "eligibility": "Candidates must have secured a minimum percentage in 10+2 or equivalent from a recognised board as given below. (Details not provided in the source)",
+      "top_colleges": {
+        "public": [
+          "Agricultural College and Research Institute, Coimbatore",
+          "Agricultural Engineering College and Research Institute, Coimbatore",
+          "Anbil Dharmalingam Agricultural College and Research Institute,Tiruchirappali",
+          "Indian Institute of Food Processing Technology(IIFPT),Thanjavur",
+          "Agricultural College and Research Institute, Madurai",
+          "Community Science College and Research Institute, Madurai",
+          "Forest College and Research Institute,Mettupalayam",
+          "Agricultural College and Research Institute,Kumulur",
+          "Don Bosco College of Agriculture,Ranipettai"
+        ],
+        "private": [
+          "Kumaraguru Institute of Agriculture (KIA),Erode",
+          "J.K.K.Munirajah College of Agricultural Science (JKKMCAS),Erode",
+          "RVS Agricultural College,Thanjavur"
+        ]
+      },
+      "reservation": {
+        "ex_servicemen": "One seat for each of the degree programs in all constituent colleges",
+        "eminent_sportsmen": "One seat for each of the degree programs in all constituent colleges",
+        "differently_abled": "5% seats are reserved."
+      },
+      "contact_details": {
+        "website": ["https://tnau.ac.in/", "https://tnau.ac.in/ugadmission/"],
+        "phone": [
+          "+91 422 6611345",
+          "+91 422 6611322",
+          "+91 422 6611346",
+          "+91 422 6611328"
+        ],
+        "email": "ugadmissions@tnau.ac.in"
+      }
+    }
+  ],
+  "top_colleges_in_india": [
+    {
+      "college_name": "ICAR-National Dairy Research Institute (NDRI)",
+      "location": "Karnal, Haryana",
+      "website": "http://ndri.res.in/"
+    },
+    {
+      "college_name": "Punjab Agricultural University",
+      "location": "Ludhiana, Punjab",
+      "website": "https://www.pau.edu/"
+    },
+    {
+      "college_name": "ICAR-Indian Agricultural Research Institute",
+      "location": "New Delhi",
+      "website": "https://iari.res.in/"
+    },
+    {
+      "college_name": "ICAR-Indian Veterinary Research Institute",
+      "location": "Izatnagar, Bareilly",
+      "website": "http://www.ivri.nic.in/"
+    },
+    {
+      "college_name": "GB Pant University of Agriculture & Technology",
+      "location": "Pantnagar, Uttarakhand",
+      "website": "https://www.gbpuat.ac.in/"
+    },
+    {
+      "college_name": "Chaudhary Charan Singh, Haryana Agriculture University",
+      "location": "Hisar, Haryana",
+      "website": "http://hau.ac.in/"
+    },
+    {
+      "college_name": "Guru Angad Dev Veterinary and Animal Sciences University",
+      "location": "Ludhiana, Punjab",
+      "website": "https://www.gadvasu.in/"
+    },
+    {
+      "college_name": "Tamil Nadu Agricultural University",
+      "location": "Coimbatore",
+      "website": "https://tnau.ac.in/"
+    },
+    {
+      "college_name": "University of Agricultural Sciences, Dharwad",
+      "location": "Dharwad",
+      "website": "http://www.uasd.edu/"
+    },
+    {
+      "college_name": "Professor Jayashankar Telangana State Agricultural University",
+      "location": "Rajendra Nagar, Hyderabad",
+      "website": "https://www.pjtsau.edu.in/"
+    }
+  ]
+}
